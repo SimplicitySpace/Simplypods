@@ -1,0 +1,63 @@
+.cta {
+    text-align: center;
+    padding: 6rem;
+}
+.cta h4 {
+    font-size: 2.6rem;
+}
+.ctaForm {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.ctaForm input {
+    padding: 1.2rem 6rem 1.2rem .4rem;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.cta button {
+    padding: 1.2rem 1.2rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    margin-left: -3.4rem;
+}
+.cheers p {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1.3rem;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+    border-radius: 6px;
+}
+
+
+@media (max-width: 28em) {
+    .ctaForm {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .ctaForm input {
+        /* padding: 1.2rem 1.2rem ; */
+        width: 24rem;
+        border: 1px solid black;
+        border-radius: 6px;
+    }
+    .cta button {
+        /* padding: 1.2rem 6.4rem 1.2rem 1.2rem; */
+        width: 24rem;
+        border: 1px solid black;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        margin-left: 0rem;
+        margin-top: 2.4rem;
+    }
+    
+}

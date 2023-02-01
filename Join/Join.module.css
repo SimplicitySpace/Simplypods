@@ -1,0 +1,61 @@
+.joinBlock {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  
+
+}
+.secondBlock  {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 12rem;
+}
+.secondBlock img {
+    width: 25%;
+    margin-bottom: 2rem;
+}
+.formBlock {
+    margin-top: 4rem;
+}
+.secondBlock {
+    padding: 6rem;
+}
+.secondBlock h2 {
+    font-size: 2.8rem;
+margin: 1rem 0;
+
+    font-family: 'Convergence', sans-serif;
+
+}
+.secondBlock p {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.formSection {
+    margin-bottom: 2.4rem;
+}
+.formSection h3 {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.4rem;
+    color: #10263E;
+}
+.formSection input {
+    width: 24rem;
+    height: 4rem;
+    border-radius: 12px;
+    border: 1px solid #10263E;
+    padding: 1.4rem;
+}
+.submitBtn {
+    padding: 1.2rem 2rem;
+    background-color: #10263E;
+    border: 1px solid #f4f4f4;
+    color: #f4f4f4;
+    border-radius: 8px;
+
+}
+.leftImg {
+    width: 50%;
+}

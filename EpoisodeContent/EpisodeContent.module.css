@@ -1,0 +1,144 @@
+.topblock {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding:4rem;
+    background-color: #f4f4f4;
+    
+}
+.top {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.topblock p {
+    font-size: 1.6rem;
+
+}
+.date {
+    font-size: 1.4rem;
+}
+.author {
+    font-size: 1.2rem;
+}
+.content {
+    font-size: 2rem;
+/* 
+  text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 28rem;
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+.contentBox h3 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'Convergence', sans-serif;
+
+ 
+}
+
+@media (max-width: 64em) {
+
+    .contentBox h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Convergence', sans-serif;
+
+ 
+}
+.content {
+    font-size: 2rem;
+/* 
+  text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 22rem;
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+}
+@media (max-width: 44em) {
+
+    .contentBox h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Convergence', sans-serif;
+
+ 
+}
+.content {
+    font-size: 2rem;
+/* 
+  text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 12rem;
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+}
+@media (max-width: 34em) {
+
+    .contentBox h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Convergence', sans-serif;
+
+ 
+}
+.content {
+    font-size: 2rem;
+/* 
+  text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 6rem;
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+}
+
+@media (max-width: 34em) {
+
+    .contentBox h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0 4rem;
+    font-family: 'Convergence', sans-serif;
+
+ 
+}
+.content {
+    font-size: 2rem;
+/* 
+  text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 6rem;
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+.topblock  {
+    font-size: 1.6rem;
+    margin-top: 8rem;
+
+}
+.topblock p {
+    font-weight: 600;
+}
+}

@@ -1,0 +1,52 @@
+.img {
+    width: 80%;
+border-radius: 8px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr );
+    padding: 8rem;
+    background-color: #f4f4f4;
+}
+.writerBlock {
+    padding: 2rem;
+}
+.writerBlock h5 {
+   font-size: 1.8rem;
+   padding-top: .8rem;
+}
+.writerBlock figcaption {
+    font-size: 1.4rem;
+    padding-top: .4rem;
+
+}
+
+@media (max-width: 58em) {
+
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr );
+    padding: 4rem;
+    background-color: #f4f4f4;
+}
+}
+
+@media (max-width: 27em) {
+
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr );
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+.img {
+    margin-top: 4rem;
+    width: 100%;
+border-radius: 8px;
+}
+.writerBlock figcaption {
+    font-size: 1.2rem;
+    padding-top: .4rem;
+
+}
+}

@@ -1,0 +1,221 @@
+.topicBlock {
+ padding: 6rem;  
+ background-color: #071728; 
+ color: #f4f4f4;
+}
+.topicBlock h3 {
+    font-size: 3.4rem;
+    font-family: 'Convergence', sans-serif;
+    text-transform: capitalize;
+}
+.topicBlock p {
+    width: 36rem;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+}
+.health,
+.marketing, 
+.technology, 
+.art {
+  padding: 8rem 2rem 2rem 2rem;
+    border: 1px solid black;
+    flex-basis: 30rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 16px;
+  font-size: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+
+}
+.topicBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+.health {
+  background-color: #68C021;
+  /* color: #071728; */
+}
+.marketing {
+  background-color: #E17A94;
+}
+.technology {
+  background-color: #283845;
+}
+.art {
+  background-color: #3F612D;
+}
+@media (max-width: 81em) {
+  .health,
+.marketing, 
+.technology, 
+.art {
+  padding: 6rem 2rem 2rem 2rem;
+    border: 1px solid black;
+    flex-basis: 24rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 16px;
+  font-size: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+
+}
+}
+
+@media (max-width: 70em) {
+  .health,
+.marketing, 
+.technology, 
+.art {
+  padding: 4rem 2rem 2rem 2rem;
+    border: 1px solid black;
+    flex-basis: 18rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 16px;
+  font-size: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+
+}
+}
+@media (max-width: 57em) {
+  .health,
+.marketing, 
+.technology, 
+.art {
+  padding: 4rem 2rem 2rem 2rem;
+    border: 1px solid black;
+    flex-basis: 12rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 16px;
+  font-size: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+
+}
+}
+@media (max-width: 51em) {
+  .health,
+.marketing, 
+.technology, 
+.art {
+  padding: 4rem 2rem 2rem 2rem;
+    border: 1px solid black;
+    flex-basis: 6rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 16px;
+  font-size: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+
+}
+.topicBox {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 2rem;
+
+ 
+}
+
+}
+@media (max-width: 30em) {
+  .topicBox {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem; */
+  display: flex;
+  flex-direction: column;
+  flex-basis: 18rem;
+   
+  }
+  .topicBlock p {
+    width: 28rem;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+}
+.health,
+.marketing, 
+.technology, 
+.art {
+  padding: 4rem 2rem 2rem 2rem;
+    border: 1px solid black;
+    width: 32rem;
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  
+  border-radius: 16px;
+  font-size: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+
+}
+
+  
+}
+
+@media (max-width: 26em) {
+  .topicBlock h3 {
+    font-size: 2.4rem;
+    font-family: 'Convergence', sans-serif;
+    text-transform: capitalize;
+}
+.topicBlock p {
+    width: 20rem;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+.health,
+.marketing, 
+.technology, 
+.art {
+  padding: 4rem 2rem 2rem 2rem;
+    border: 1px solid black;
+    width: 22rem;
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  
+  border-radius: 16px;
+  font-size: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+
+}
+}

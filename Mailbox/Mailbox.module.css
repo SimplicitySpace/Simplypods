@@ -1,0 +1,38 @@
+.cta {
+    text-align: center;
+    padding: 6rem;
+}
+.cta h4 {
+    font-size: 2.6rem;
+}
+.ctaForm {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.ctaForm input {
+    padding: 1.2rem 6rem 1.2rem .4rem;
+    border: 1px solid #10263E;
+    border-radius: 6px;
+}
+.cta button {
+    padding: 1.2rem 1.2rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #10263E;
+    color: white;
+    margin-left: -3.4rem;
+}
+
+@media (max-width: 28em) {
+    .ctaForm {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    .ctaForm input {
+        padding: 1.2rem 4rem 1.2rem .4rem;
+        border: 1px solid #10263E;
+        border-radius: 6px;
+    }
+    
+}
+

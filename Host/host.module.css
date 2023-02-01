@@ -1,0 +1,207 @@
+.hostBlock {
+    background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ 
+   margin-top: 0rem;
+   padding-top: 4rem;
+   gap: 4rem;padding-bottom: 6rem;
+ 
+}
+.hostBlock h2 {
+    font-size: 2.8rem;
+    color: white;
+    font-family: 'Convergence', sans-serif;
+}
+.hostBlock img {
+    width: 30%;
+    border-radius: 12px;
+}
+span {
+    display: block;
+}
+.firstBlock   {
+    display: inline-block;
+color: #f4f4f4;
+}
+.firstBlock span {
+    width: 60rem;
+    font-size: 1.8rem;
+}
+.firstBlock h4 {
+    font-size: 2.4rem;
+}
+.host {
+    background-color: black;
+}
+.header {
+    text-align: center;
+    color: white;
+    font-size: 3.6rem;
+    padding: 6rem;  font-family: 'Convergence', sans-serif;
+    text-transform: capitalize;
+}
+
+@media (max-width: 62em)  {
+    .header {
+        text-align: center;
+        color: white;
+        font-size: 3.6rem;
+        padding: 2rem;  font-family: 'Convergence', sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .firstBlock span {
+        width: 40rem;
+        font-size: 1.8rem;
+    }
+    .hostBlock {
+        background-color: black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     
+       margin-top: 0rem;
+       padding-top: 4rem;
+       gap: 16rem;padding-bottom: 6rem;
+     
+    }
+}
+
+@media (max-width: 58em)  {
+    .header {
+        text-align: center;
+        color: white;
+        font-size: 3.6rem;
+        padding: 2rem;  font-family: 'Convergence', sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .firstBlock span {
+        width: 30rem;
+        font-size: 1.8rem;
+    }
+    .hostBlock {
+        background-color: black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     
+       margin-top: 0rem;
+       padding-top: 4rem;
+       gap: 4rem;
+       padding-bottom: 6rem;
+     
+    }
+}
+
+@media (max-width: 58em)  {
+    .header {
+        text-align: center;
+        color: white;
+        font-size: 3.2rem;
+        padding: 2rem;  font-family: 'Convergence', sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .firstBlock span {
+        width: 30rem;
+        font-size: 1.8rem;
+    }
+    .hostBlock {
+        background-color: black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     
+       margin-top: 0rem;
+       padding-top: 4rem;
+       gap: 4rem;
+       padding-bottom: 6rem;
+     
+    }
+    .hostBlock img {
+        width: 40%;
+        border-radius: 12px;
+    }
+}
+@media (max-width: 58em)  {
+    .header {
+        text-align: center;
+        color: white;
+        font-size: 3.2rem;
+        padding: 2rem;  font-family: 'Convergence', sans-serif;
+        text-transform: capitalize;
+    
+    }
+    .firstBlock span {
+        width: 30rem;
+        font-size: 1.8rem;
+    }
+    .hostBlock {
+        background-color: black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     
+       margin-top: 0rem;
+       padding-top: 4rem;
+       gap: 4rem;
+       padding-bottom: 6rem;
+     
+    }
+    .hostBlock img {
+        width: 40%;
+        border-radius: 12px;
+    }
+}
+@media (max-width: 40em)  {
+    .header {
+        text-align: center;
+        color: white;
+        font-size: 3.2rem;
+        padding: 2rem 0;  font-family: 'Convergence', sans-serif;
+        text-transform: capitalize;
+        
+    
+    }
+    .firstBlock span {
+        width: 30rem;
+        font-size: 1.6rem;
+    }
+    .hostBlock {
+        background-color: black;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+     
+       margin-top: 0rem;
+       padding-top: 4rem;
+       gap: 4rem;
+       padding-bottom: 6rem;
+     
+    }
+    .hostBlock img {
+        width: 50%;
+        border-radius: 12px;
+    }
+    .firstBlock h4 {
+        font-size: 2.4rem;
+        padding: 1.4rem 0;
+    }
+    .header h2 {
+        padding: 1.4rem 0 0 0 ;
+    }
+    
+}
+
+@media (max-width: 24em) {
+    .hostBlock img {
+        width: 85%;
+        border-radius: 12px;
+    }
+
+    
+}
